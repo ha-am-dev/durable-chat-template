@@ -108,11 +108,11 @@ function App() {
           type="text"
           name="content"
           className="ten columns my-input-text"
-          placeholder={`Hello ${name}! Type a message...`}
+          placeholder={`안녕하세요 ${name}! 여기에 메시지를 입력하세요...`}
           autoComplete="off"
         />
         <button type="submit" className="send-message two columns">
-          Send
+          전송
         </button>
       </form>
     </div>
